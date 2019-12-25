@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+<body>
+<div class="main">
+    <div class="box first"> </div>
+    <div class="box second"> </div>
+    <div class="box third"> </div>
+    <div class="box fourth"> </div>
+</div>
+</body>
+
+</html>
+
+
+
+
+
+
+////CSS
+
+body {
+    font-size: 45px;
+    font-weight: 700;
+}
+.main {
+    width: 900px;
+    margin: auto;
+}
+.box {
+    width: 300px;
+    height: 150px;
+    margin: 25px;
+}
+.first {   
+    background: aqua;
+    border: 2px dashed red;   
+}
+.second {
+    background: yellow;
+    border: 1px dotted red;
+}
+.third {
+    background: aqua;
+    border: 25px inset blue;
+    margin: 0px;
+    
+}
+.fourth {
+    background: aqua;
+    border-left: 10px solid black;
+}

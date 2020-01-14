@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head  >
+        <meta charset="UTF-8">
+        <title>MARVEL</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            h1{
+                position:relative;
+                font-weight: 700;
+                font-size: 300%;
+            }
+            
+            h2 {
+                font-family:   Verdana,  sans-serif;
+                font-size: 200%;
+                border-bottom: 2px solid red; 
+                font-weight: bold;
+                padding-bottom: 2px;
+                text-align: left;
+   }
+            p{
+                font-family:   Arial,  sans-serif;
+                text-align: justify;
+                font-size: 12px;
+                font-weight: 600;
+                line-height: 200%;
+                word-spacing: 3px;
+                letter-spacing: 1px;
+            }
+            
+        </style>
+    
+    </head>
+    <body>
+        <div class="main">
+            <div class="header"><h1><ul>Marvel</ul></h1></div>
+            <div class="box">
+                <div class="logos">
+                    <div class="big"><img src="Marvel_Studios_logo.jpg" style="width: 100% "></div>
+                    <div class="images">
+                        <div class="item"><img src="Marvel_Studios_logo.jpg" style="width: 100% "></div>
+                        <div class="item"><img src="Marvel_Studios_logo.jpg" style="width: 100% "></div>
+                        <div class="item"><img src="Marvel_Studios_logo.jpg" style="width: 100% "></div>
+                        <div class="item"><img src="Marvel_Studios_logo.jpg" style="width: 100% "></div>
+                    </div>
+                 </div>
+            </div>
+            <div class="box">
+                <div class="text">
+                    <h2 >About marvel</h2>
+                    <br>
+                     <p>Marvel Comics is the brand name and primary imprint of Marvel Worldwide Inc., formerly Marvel Publishing, Inc. and Marvel Comics Group, a publisher of American comic books and related media. In 2009, The Walt Disney Company acquired Marvel Entertainment, Marvel Worldwide's parent company. Marvel started in 1939 as Timely Publications, and by the early 1950s, had generally become known as Atlas Comics. The Marvel branding began in 1961, the year that the company launched The Fantastic Four and other superhero titles created by Steve Ditko, Stan Lee, Jack Kirby and many others.Marvel counts among its characters such well-known superheroes as Spider-Man, Captain America, Iron Man, Thor, Wolverine, the Hulk, Daredevil, Ghost Rider, Deadpool, Doctor Strange, Black Panther and the Punisher, such teams as the Avengers, the X-Men, the Fantastic Four and the Guardians of the Galaxy, and antagonists including Doctor Doom, Red Skull, Green Goblin, Thanos, Ultron, Doctor Octopus, Magneto, Venom and Loki. Most of Marvel's fictional characters operate in a single reality known as the Marvel Universe, with most locations mirroring real-life places; many major characters are based in New York City.</p>    
+                </div>
+            </div>           
+        </div>
+    </body>
+</html>
+
+
+
+
+CSS)))
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: auto;
+    height: auto;
+}
+
+.header{
+    width: inherit;
+    height: 70px;
+    background-color: gainsboro;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: red;
+}
+.box{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: auto;
+    
+}
+.logos{
+    width: 80% inherit;
+    height: 80% inherit;
+}
+
+
+img{
+    border: 2px solid;
+    border-color: gainsboro;
+    padding: 2px;
+}
+.big{    
+    width: 80%; 
+    height: 70% ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+    padding: 40px;
+    
+}
+.images{    
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    margin: auto;
+    padding: 40px;
+    
+}
+.item{
+    width: 20% ;
+    height: inherit;
+    float: left;
+    margin: 0;
+   
+}
+.text{
+    width: 65%;
+    padding: 45px;
+}
+ 

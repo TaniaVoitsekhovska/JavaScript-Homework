@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head  >
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">     
+        <style>
+            p{
+                font-size: 11px;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="all">
+           <div class="box header">Header</div>
+           <div class="box hero">Hero</div>
+           <div class="box main">Main Content
+               <br>
+               <br>
+          <p>**If things do not look right, make sure your browser is in "Experimental Mode".</p></div>
+           <div class="box sidebar">Sidebar</div>
+           <div class="box extra">Extra Content</div>
+           <div class="box images">Related Images</div>
+            <div class="box posts">Related posts</div>
+           <div class="box footer">Footer</div>
+      </div> 
+    </body>
+</html>
+
+
+
+CSS))
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    display: contents;
+    justify-content: center;
+    display: grid;
+    grid-area: 1/4/1/7;
+    grid-template-columns: 0.2fr 0.1fr 0.1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box{
+    padding: 25px;
+    font-size: 20px;   
+    text-align: center;
+    color: white;
+}
+.header{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color:skyblue;
+}
+.hero{
+    min-height: 300px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: plum;
+}
+.sidebar{
+    min-height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 2;    
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: olivedrab;
+}
+.main{
+    min-height: 500px;
+    grid-column-start: 2;
+    grid-column-end: 4;    
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: gold;
+}
+.extra{
+    min-height: 200px;
+    grid-column-start: 2;
+    grid-column-end: 4;    
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: darkgray;
+}
+.images{
+    grid-column-start: 1;
+    grid-column-end: 3;    
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color:darkseagreen;
+}
+.posts{
+    grid-column-start: 3;
+    grid-column-end: 4;    
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-color:pink;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;    
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-color:orange;
+}

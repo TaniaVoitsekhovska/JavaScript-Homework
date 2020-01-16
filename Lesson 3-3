@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head  >
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            p{
+                padding: 10px;
+                text-align: justify;
+            }
+        </style>
+            
+    </head>
+    <body>
+      <div class="main">
+          <div class="head">
+            <div class="circle" style="width: 500px"><h6 >FLOATS.HTML</h6></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+          <div class="blue"></div>
+          <div class="blocks">
+            <div class="red"></div>
+            <div class="yellow">
+                <div class="small"></div>
+                
+                <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            "</p>
+            </div>
+              
+          </div>
+        <div class="boxs">
+           <div class="one"></div>
+           <div class="one"></div>
+           <div class="one"></div>
+           <div class="one"></div>
+           <div class="one"></div>
+           <div class="one"></div>
+          </div>
+        </div>
+    </body>
+</html>
+
+
+
+CSS))
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+.main{
+    width: 600px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+.head{
+    width: auto;
+    height: 40px;
+    background-color:lightgrey;
+    border-bottom: 2px solid black;
+    margin-top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.circle{
+    width: 15px;
+    height: 15px;
+    border-color:silver;
+    border-radius: 15px;
+    background-color: white;
+    border: 2px solid grey;
+    margin: auto;
+}
+.blue{
+    width: auto;
+    height: 60px;
+    background-color: blue;
+}
+.blocks{
+    width: auto;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    background-color:ghostwhite;
+    
+}
+.red{
+    width: 25%;
+    height: 70%;
+    background-color: red;
+    margin-left: 50px;
+}
+.yellow{
+    width: 60%;
+    height: inherit;
+    background-color: gold;
+}
+.small{
+    width: 120px;
+    height: 80px;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: inherit;
+    float: left;
+    margin-right: 10px;
+}
+.boxs{
+    width: inherit;
+    display: flex;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius: 10px;
+    background-color:aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.one{
+    width: 180px;
+    height: 80px;
+    margin: 6px;
+    background-color: cornflowerblue;
+}

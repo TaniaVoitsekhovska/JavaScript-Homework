@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">     
+        <meta charset="utf-8">
+         <title>Battery</title>
+    </head>
+    <body>
+        <div class=" box ten"><img src="Atlas_deck_10_of_hearts.svg.png"> </div>
+       <div class=" box ace"><img src="Atlas_deck_ace_of_hearts.svg.png"></div>
+       <div class="box jack"> <img src="Atlas_deck_jack_of_hearts.svg.png"></div> 
+       <div class="box king"><img src="Atlas_deck_king_of_hearts.svg.png"> </div> 
+       <div class="box queen"> <img src="Atlas_deck_queen_of_hearts.svg.png"></div> 
+    </body>
+</html>
+
+
+CSS))
+
+img{
+    widows: 100px;
+    height: 200px;
+}
+.box{
+    width: auto;
+    height: auto;
+    
+}
+.ten{
+    z-index: 1;
+    position: absolute;
+    top:20px;
+    left: 20px;
+}
+.jack{
+    z-index: 10;
+    top:50px;
+    left: 50px;
+    position: absolute;
+}
+.queen{
+    z-index: 20;
+    top:80px;
+    left: 80px;
+    position: absolute;
+}
+.king{
+    z-index: 30;
+    top:110px;
+    left: 110px;
+    position: absolute;
+}
+.ace{
+    z-index: 40;
+    top:140px;
+    left: 140px;
+    position: absolute;
+}

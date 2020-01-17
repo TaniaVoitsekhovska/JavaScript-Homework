@@ -18,18 +18,18 @@
     </div>
        <div class="box"> 
            <label>Email adress:
-            <input type="email">
+            <input type="email" required>
         </label>
     </div>     
     <div class="box">
            <label>Phone number:
-            <input type="tel">
+            <input type="tel" required>
         </label>
     </div>
         </div>
     <div class="message">  
         <span>Write your message</span> <br> 
-        <textarea cols="100%" rows="10"></textarea>   
+        <textarea cols="100%" rows="10" required></textarea>   
     </div>
     <div class="button">
            <input type="submit" style="width: inherit"  value="Send">

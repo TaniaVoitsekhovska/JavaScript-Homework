@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">     
+        <meta charset="utf-8">
+         <title>Form</title>
+    </head>
+    <body>
+         <form action="#"><h4>Send us message</h4>
+    <div class="all"> <div class="box">  <label>Your first name:
+            <input type="text"  required>
+        </label>
+     </div>
+    <div class="box">
+        <label>Your last name:
+            <input type="text"  required>
+        </label>
+    </div>
+       <div class="box"> 
+           <label>Email adress:
+            <input type="email">
+        </label>
+    </div>     
+    <div class="box">
+           <label>Phone number:
+            <input type="tell">
+        </label>
+    </div>
+        </div>
+    <div class="message">  
+        <span>Write your message</span> <br> 
+        <textarea cols="100%" rows="10"></textarea>   
+    </div>
+    <div class="button">
+           <input type="submit" style="width: inherit"  value="Send">
+    </div>        
+    </form>
+    </body>
+</html>
+
+
+CSS))
+
+body{
+    background-color: darkblue;
+}
+form{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+	box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    padding: 0 20px 0;
+    right: 0;
+}
+.all{
+    width: inherit;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+input{
+    width: 320px;
+    height: 30px;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.box{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.message{
+    width: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+.button{
+    width: 725px;
+    height: auto;
+}

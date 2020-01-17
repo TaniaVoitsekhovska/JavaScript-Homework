@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">     
+        <meta charset="utf-8">
+         <title>Battery</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="battery">
+                <div class="low"></div>
+            </div>    
+            <div class="contact"></div>
+             
+            <div class="battery">
+                <div class="medium"></div>
+             </div>
+            <div class="contact"></div>
+            <div class="battery">
+                <div class="high"></div>
+            </div>
+            <div class="contact"></div>
+        </div>
+    </body>
+</html>
+
+
+CSS))
+
+.main{
+    width: 170px;
+    height: 200px;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap; 
+    top:30%;
+    left: 30%;
+}
+.battery {
+    width: 150px;
+    height: 50px; 
+    border: 4px solid black; 
+    margin-bottom: 10px;
+    position: relative;    
+   }
+.low{
+    width: 33%;
+    height: inherit;
+    background-color: red;
+    }
+.medium{ 
+    width: 66%;
+    height: inherit;
+    background-color: yellow;
+   }
+.high{ 
+    width: 100%;
+    height: inherit;
+    background-color: green;
+   }
+.contact{
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    position: relative;
+    margin-left: 0;
+    top:20px;
+}

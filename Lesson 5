@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <title>Fitness</title>
+        <link href="https://fonts.googleapis.com/css?family=Rubik:300&display=swap" rel="stylesheet">     
+        <style>
+            *{
+                margin: 0;
+                padding:0;
+            }
+            body{
+                width:  700px;
+                height: auto;
+                margin-left: 25%;
+                padding: 15px;
+                justify-content: center;
+                align-content: center;
+                border: 2px solid lightgray;
+                font-variant: normal;
+                line-height: 20px;
+                font-size: 10px;
+            }
+            
+            img{
+                padding: 20px;
+            }
+    
+            .head{
+                border-collapse: collapse;
+                }
+            th{
+                width: 100px;
+                text-align: center;
+                background-color: gray;
+                color: white;
+                }          
+            .menu{
+                padding-top: 30px;
+                float: left;
+                margin-top: 30px;
+                border-collapse: collapse;
+            }
+            td{
+                width: 180px;
+                height: 30px;
+                border: 1px solid lightgray;                
+                text-align: left;
+                padding-left: 15px;                
+                }
+            .bike{
+                border: 1px solid lightgray;
+                margin-top: 30px;
+                margin-left: 20px;
+                width:  62%;
+                height: 60%;                
+            }
+            .text{
+                width: 70%;
+                height: 70%;
+                right: 50%;
+            }
+            p{
+                padding-left: 30%;
+                padding-right: 0;
+            }
+            .footer{
+                width: 100%;
+                height: 250px;
+                text-align: center;
+                border-collapse: collapse;
+                background-color:aliceblue;
+                margin-top: 30px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="logo.png">
+        <table class="head">
+            <thead>
+                <th>Главная</th>
+                <th> Товари </th>
+                <th>О_нас </th>
+                <th>Контакти </th>
+                <th > </th>                
+                <th > </th>            
+                <th > </th>            
+            </thead>
+        </table>   
+
+     <table class="menu">
+            <tbody>
+            <tr>
+                <td >Ноутбуки</td>
+            </tr>
+            <tr>
+                <td>Планшети</td>
+                </tr>
+            <tr>
+                <td>Телефони</td>
+                </tr>
+            <tr>
+                <td>Телевізори</td>
+                </tr>
+            <tr>
+                <td>Побутова техніка</td>
+                </tr>
+            <tr>
+                <td>Автотовари</td>
+            </tr>           
+        </tbody>
+            </table>
+            <img class="bike" src="image.png">
+    <p>Lorem ipsum — класичний варіант умовного беззмістовного тексту, що вставляється в макет сторінки (у сленгу дизайнерів такий текст називається «рибою»). Lorem ipsum — це перекручений уривок з філософського трактату Цицерона «Про межі добра і зла», написаного в 45 році до нашої ери латиною. З точки зору зручності сприйняття друкованих текстів Lorem ipsum показує, що латинська графіка найслушніше пристосовується для написання саме творів латинською мовою (тут враховується частота вживання символів з виносними елементами, таких як g, l, h, p).</p> 
+        
+        
+          <table class="footer">
+            <thead>
+                <th style="color: black">Главная</th>
+                <th style="color: black"> Товари </th>
+                <th style="color: black">О_нас </th>
+                <th style="color: black">Контакти </th>
+                <th style="color: black"></th>
+                <th colspan="2" style="color: black">2014© All rights reserved </th>
+              </thead>
+        </table>
+    </body>
+</html>
